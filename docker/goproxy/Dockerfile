@@ -1,5 +1,5 @@
 ##################################################### BUILD STAGE ######################################################
-FROM golang:alpine AS build
+FROM golang:1.21.4-alpine3.18 AS build
 
 RUN apk add --no-cache -U make git mercurial subversion
 
@@ -9,7 +9,7 @@ RUN git clone https://github.com/goproxyio/goproxy.git /src/goproxy && \
     make
 
 ################################################## PRODUCTION STAGE ####################################################
-FROM golang:alpine
+FROM golang:1.21.4-alpine3.18
 
 ENV TINI_VERSION v0.19.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini-static-amd64 /usr/bin/tini
