@@ -1,5 +1,5 @@
 #### Base Image: Ubuntu 22.04 LTS (Jammy Jellyfish)
-FROM ubuntu:jammy
+FROM ubuntu:22.04
 
 # Copyright © 2018 - 2023 PhotoPrism UG. All rights reserved.
 #
