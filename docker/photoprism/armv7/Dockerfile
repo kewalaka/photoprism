@@ -19,7 +19,7 @@ RUN make all install DESTDIR=/opt/photoprism
 
 ################################################## PRODUCTION STAGE ####################################################
 #### Base Image: Ubuntu 22.04 LTS (Jammy Jellyfish)
-FROM ubuntu:jammy
+FROM ubuntu:22.04
 
 # Add Open Container Initiative (OCI) annotations.
 # See: https://github.com/opencontainers/image-spec/blob/main/annotations.md
