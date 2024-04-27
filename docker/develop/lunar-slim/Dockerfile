@@ -1,5 +1,5 @@
 #### Base Image: Ubuntu 23.04 (Lunar Lobster)
-FROM ubuntu:lunar
+FROM ubuntu:mantic-20240416
 
 # Copyright © 2018 - 2023 PhotoPrism UG. All rights reserved.
 #
