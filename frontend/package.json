@@ -85,7 +85,7 @@
     "pubsub-js": "^1.9.4",
     "regenerator-runtime": "^0.13.11",
     "resolve-url-loader": "^5.0.0",
-    "sass": "^1.57.1",
+    "sass": "^1.79.0",
     "sass-loader": "^13.2.0",
     "server": "^1.0.38",
     "sockette": "^2.0.6",
