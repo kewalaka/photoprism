@@ -1,5 +1,5 @@
 #### Base Image: Debian 12 (Bookworm)
-FROM debian:bookworm-slim
+FROM debian:12.11-slim
 
 # Copyright © 2018 - 2023 PhotoPrism UG. All rights reserved.
 #
